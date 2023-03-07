@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    /* background-image: url(../img/banner1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; */
+}
+
+
+.navbar.navbar-expand-lg.bg-dark
+{
+    background: rgb(121,113,129);
+background: linear-gradient(90deg, rgba(121,113,129,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    /* color: linear-gradient(90deg, rgba(245,133,41,1) 0%, rgba(254,218,119,1) 26%, rgba(221,42,123,1) 52%, rgba(129,52,175,1) 75%, rgba(81,91,212,1) 100%); */
+    color: rgb(255, 0, 119)}
+
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+        color:rgb(0, 114, 177);
+        }
+i.fa-brands.fa-github.fa-2xl:hover{
+            color:black;
+            }
+
+.list-group{
+    --bs-list-group-bg: none;
+    --bs-list-group-border-color: transparent;
+}
+
+section.about {
+    margin-top: 7.5rem;
+}
+
+section.dashboard {
+    margin-top: 7.5rem;
+}
